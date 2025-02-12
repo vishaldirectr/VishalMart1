@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VishalMart</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero h2 { color: blue; }
+        .hero p { color: green; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VishalMart</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">🏠 Home</a></li>
+            <li><a href="electronics.html">📱 Electronics</a></li>
+            <li><a href="fruits.html">🍏 Fruits</a></li>
+            <li><a href="cloths.html">👕 Clothes</a></li>
+            <li><a href="cart.html">🛒 Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to VishalMart!</h2>
+    <p>Your one-stop destination for shopping electronics, clothes, and more.</p>
+    <button onclick="window.location.href='category.html'">Start Shopping 🛒</button>
+</section>
+
+<section class="categories">
+    <div class="category-card" onclick="window.location.href='electronics.html'">
+        <img src="image/electronics.jpg" alt="Electronics">
+        <h3>Electronics</h3>
+    </div>
+
+    <div class="category-card" onclick="window.location.href='fruits.html'">
+        <img src="image/fruits.jpg" alt="Fruits">
+        <h3>Fruits</h3>
+    </div>
+
+    <div class="category-card" onclick="window.location.href='cloths.html'">
+        <img src="image/cloths.jpg" alt="Clothes">
+        <h3>Clothes</h3>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 VishalMart. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
